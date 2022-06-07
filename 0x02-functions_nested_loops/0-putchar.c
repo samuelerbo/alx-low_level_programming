@@ -6,9 +6,8 @@
  * Return: return 0 (successful)
  */
 
-void main(void)
+int main(void)
 {
-
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
@@ -17,7 +16,6 @@ void main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	-putchar('\n');
-
+	_putchar('\n');
 	return (0);
 }
