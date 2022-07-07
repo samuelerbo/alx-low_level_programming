@@ -12,7 +12,7 @@
 
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	long unsigned int a  = 0;
+	unsigned long int a  = 0;
 
 	if (array == NULL || action == NULL)
 		return;
